@@ -1,6 +1,6 @@
 #Usage
 ```
- ./phab-stats --config ./phab-stats-config.json  2015-09-01 2015-12-31
+ ./phab-stats --config ./phab-stats-config.json  2015-09-01 2016-01-01
 ```
 #To install 
 
@@ -15,7 +15,7 @@ but please see below of Mac OS X instructions.
 ```
     sudo pip  install -r ./requirements.txt
 ```
-If lxml gives trouble, uninstall and install again. 
+If lxml gives trouble, uninstall and install again.
 
 Please see issue: https://github.com/disqus/python-phabricator/issues/22
 You need phabricator 0.0.5 to workarround it
@@ -30,7 +30,7 @@ Installing certificates should bring up a prompt for you to enter a token:
 ```
 >arc install-certificate https://phabricator.wikimedia.org
 
- CONNECT  Connecting to "https://phabricator.wikimedia.org/api/"...
+CONNECT  Connecting to "https://phabricator.wikimedia.org/api/"...
 LOGIN TO PHABRICATOR
 Open this page in your browser and login to Phabricator if necessary:
 
@@ -43,4 +43,3 @@ Writing ~/.arcrc...
  SUCCESS!  API Token installed.
 ```
 DONE! You should be able to run the script
-
